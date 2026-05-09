@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "University Library",
+    "slug": "university-library-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6B3A2A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.university.libraryapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6B3A2A"
+      },
+      "package": "com.university.libraryapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
